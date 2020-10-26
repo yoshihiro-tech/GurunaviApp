@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671B03D7232BC9949120F185 /* Pods_GurunaviApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3090462D0D9CDE8377491BA0 /* Pods_GurunaviApp.framework */; };
 		964266B525469174007A57FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266B425469174007A57FA /* AppDelegate.swift */; };
 		964266B725469174007A57FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266B625469174007A57FA /* SceneDelegate.swift */; };
 		964266B925469174007A57FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266B825469174007A57FA /* ViewController.swift */; };
 		964266BC25469174007A57FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964266BA25469174007A57FA /* Main.storyboard */; };
 		964266BE25469178007A57FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964266BD25469178007A57FA /* Assets.xcassets */; };
 		964266C125469178007A57FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964266BF25469178007A57FA /* LaunchScreen.storyboard */; };
+		964266CB25469326007A57FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266CA25469326007A57FA /* DetailViewController.swift */; };
+		964266D625469B51007A57FA /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 964266D525469B51007A57FA /* 1.json */; };
+		964266D92546B8DD007A57FA /* AnalyticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266D82546B8DD007A57FA /* AnalyticsModel.swift */; };
+		964266DF2546BBA1007A57FA /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266DE2546BBA1007A57FA /* ShopData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3090462D0D9CDE8377491BA0 /* Pods_GurunaviApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GurunaviApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		964266B125469174007A57FA /* GurunaviApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GurunaviApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964266B425469174007A57FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964266B625469174007A57FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		964266BD25469178007A57FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964266C025469178007A57FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964266C225469178007A57FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964266CA25469326007A57FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		964266D525469B51007A57FA /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		964266D82546B8DD007A57FA /* AnalyticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsModel.swift; sourceTree = "<group>"; };
+		964266DE2546BBA1007A57FA /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		A547F1E1ECE283BFA8FE56B9 /* Pods-GurunaviApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GurunaviApp.debug.xcconfig"; path = "Target Support Files/Pods-GurunaviApp/Pods-GurunaviApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC5EEA9193D8CF4A701BCBCF /* Pods-GurunaviApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GurunaviApp.release.xcconfig"; path = "Target Support Files/Pods-GurunaviApp/Pods-GurunaviApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671B03D7232BC9949120F185 /* Pods_GurunaviApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35EF28C568A9ABE2D13A99DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A547F1E1ECE283BFA8FE56B9 /* Pods-GurunaviApp.debug.xcconfig */,
+				AC5EEA9193D8CF4A701BCBCF /* Pods-GurunaviApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		964266A825469174007A57FA = {
 			isa = PBXGroup;
 			children = (
 				964266B325469174007A57FA /* GurunaviApp */,
 				964266B225469174007A57FA /* Products */,
+				35EF28C568A9ABE2D13A99DB /* Pods */,
+				D3BB1C3935CD5B0335BD642E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,41 @@
 			children = (
 				964266B425469174007A57FA /* AppDelegate.swift */,
 				964266B625469174007A57FA /* SceneDelegate.swift */,
-				964266B825469174007A57FA /* ViewController.swift */,
+				964266DB2546B8EE007A57FA /* Model */,
+				964266CD2546933C007A57FA /* Controller */,
 				964266BA25469174007A57FA /* Main.storyboard */,
 				964266BD25469178007A57FA /* Assets.xcassets */,
 				964266BF25469178007A57FA /* LaunchScreen.storyboard */,
 				964266C225469178007A57FA /* Info.plist */,
+				964266D525469B51007A57FA /* 1.json */,
 			);
 			path = GurunaviApp;
+			sourceTree = "<group>";
+		};
+		964266CD2546933C007A57FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				964266B825469174007A57FA /* ViewController.swift */,
+				964266CA25469326007A57FA /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		964266DB2546B8EE007A57FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				964266D82546B8DD007A57FA /* AnalyticsModel.swift */,
+				964266DE2546BBA1007A57FA /* ShopData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3BB1C3935CD5B0335BD642E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3090462D0D9CDE8377491BA0 /* Pods_GurunaviApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964266C525469178007A57FA /* Build configuration list for PBXNativeTarget "GurunaviApp" */;
 			buildPhases = (
+				A992024FC7C077ED433A0271 /* [CP] Check Pods Manifest.lock */,
 				964266AD25469174007A57FA /* Sources */,
 				964266AE25469174007A57FA /* Frameworks */,
 				964266AF25469174007A57FA /* Resources */,
+				C323C578F70C4581750720AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,10 +181,53 @@
 				964266C125469178007A57FA /* LaunchScreen.storyboard in Resources */,
 				964266BE25469178007A57FA /* Assets.xcassets in Resources */,
 				964266BC25469174007A57FA /* Main.storyboard in Resources */,
+				964266D625469B51007A57FA /* 1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A992024FC7C077ED433A0271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GurunaviApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C323C578F70C4581750720AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GurunaviApp/Pods-GurunaviApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GurunaviApp/Pods-GurunaviApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GurunaviApp/Pods-GurunaviApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		964266AD25469174007A57FA /* Sources */ = {
@@ -138,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				964266B925469174007A57FA /* ViewController.swift in Sources */,
+				964266D92546B8DD007A57FA /* AnalyticsModel.swift in Sources */,
 				964266B525469174007A57FA /* AppDelegate.swift in Sources */,
+				964266DF2546BBA1007A57FA /* ShopData.swift in Sources */,
 				964266B725469174007A57FA /* SceneDelegate.swift in Sources */,
+				964266CB25469326007A57FA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +383,7 @@
 		};
 		964266C625469178007A57FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A547F1E1ECE283BFA8FE56B9 /* Pods-GurunaviApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +397,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshihiro.GurunaviApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		964266C725469178007A57FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5EEA9193D8CF4A701BCBCF /* Pods-GurunaviApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshihiro.GurunaviApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
